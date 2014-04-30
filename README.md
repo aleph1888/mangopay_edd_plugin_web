@@ -57,9 +57,9 @@ Version
 Tech
 -----------
 *Mangopay_edd_plugin_web* uses a number of open source projects to work properly:
-* [Wordpress.org] - https://github.com/WordPress/WordPress
-* [Easy-Digital-Downloads] - https://github.com/easydigitaldownloads/Easy-Digital-Downloads
-* [Astoundify / crowdfunding] - https://github.com/Astoundify/crowdfunding
+* Wordpress.org - https://github.com/WordPress/WordPress
+* Easy-Digital-Downloads - https://github.com/easydigitaldownloads/Easy-Digital-Downloads
+* Astoundify / crowdfunding - https://github.com/Astoundify/crowdfunding
 
 Dependencies
 --------------
@@ -67,6 +67,8 @@ Dependencies
 
 ##### Calaways EDD gateways bundle.
 
+Docs dev
+-------------
 * [Wiki doc](https://wiki.enredaos.net/index.php?title=COOPFUND-DEV#MANGOPAY).
 
 License
