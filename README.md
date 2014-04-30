@@ -79,7 +79,7 @@ Contribute
 ----------
 @BTC 1DNxbBeExzv7JvXgL6Up5BSUvuY4gE8q4
 
-Other ways: aleph@riseup.net
+Other ways: ox@enredaos.net
 
 
 
