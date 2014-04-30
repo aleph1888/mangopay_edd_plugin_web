@@ -1,0 +1,314 @@
+#
+# Site localization
+# @package		mwpw
+# @copyleft    Copyleft (l) 2014, Enredaos.net
+# @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+# @since       0
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: May 2014\n"
+"PO-Revision-Date: 2014-04-30 16:46+0100\n"
+"Last-Translator: Aleph\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "Easy Digital Downloads - Mangopay Gateway through Web: "
+msgstr ""
+
+msgid "save_profile_error"
+msgstr "MangoPay error while saving profile"
+
+msgid ""
+"You have a pending payout. MangoPay staff will transfer funds to your bank "
+"account"
+msgstr ""
+
+msgid "Collected funds has been transfered to your bank account."
+msgstr "Collected funds have been transfered to your bank account."
+
+msgid "Loosed amount: "
+msgstr ""
+
+msgid "Total: "
+msgstr ""
+
+msgid " eur"
+msgstr " €"
+
+msgid "Payout operation has been ordered with result: "
+msgstr ""
+
+msgid "Fetching wallet"
+msgstr ""
+
+msgid "Fetching PayOut"
+msgstr ""
+
+msgid ""
+"In order to request for a withdraw of your funds, author %s must fill "
+"MangoPay User form on profile."
+msgstr ""
+
+msgid ""
+"In order to request for a withdraw of your funds, author %s must fill "
+"MangoPay Bank form on profile."
+msgstr ""
+
+msgid "Order withdraw"
+msgstr ""
+
+msgid "Retrieving bank account info"
+msgstr ""
+
+msgid "Ordering payout"
+msgstr ""
+
+msgid "Bank profile form"
+msgstr ""
+
+msgid ""
+"You will be able to save bank once MangoPay user form is filled in profile"
+msgstr ""
+
+msgid "User form"
+msgstr ""
+
+msgid "Creating payment with MangoPay"
+msgstr ""
+
+msgid "Transferring payment to wallets"
+msgstr ""
+
+msgid "MangoPay\\User Id: "
+msgstr ""
+
+msgid "MangoPay\\Bank Id: "
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Creating wallet"
+msgstr ""
+
+msgid ""
+"If wrong Id is %s, visit %s profile to fix it. You will get a message with "
+"proper link."
+msgstr ""
+
+msgid "Mangopay"
+msgstr ""
+
+msgid "Gateway is not available until it is fully configured. <br>"
+msgstr ""
+
+msgid ""
+"Must configure site admin in Downloads/Settings/Gateways/MangoPay section"
+msgstr ""
+
+msgid "Select site admin"
+msgstr ""
+
+msgid "General conditions"
+msgstr ""
+
+msgid "Mangopay Gateway Settings."
+msgstr ""
+
+msgid "Site Admin"
+msgstr ""
+
+msgid "Live API User"
+msgstr ""
+
+msgid "Enter your live API user"
+msgstr ""
+
+msgid "Live API Key"
+msgstr ""
+
+msgid "Enter your live API key"
+msgstr ""
+
+msgid "Test API User"
+msgstr ""
+
+msgid "Enter your test API user"
+msgstr ""
+
+msgid "Test API Key"
+msgstr ""
+
+msgid "Enter your test API key"
+msgstr ""
+
+msgid "Temp folder"
+msgstr ""
+
+msgid "Enter a temp folder where Mangopay API can write"
+msgstr ""
+
+msgid "Conditions rules image"
+msgstr ""
+
+msgid "Enter the url where you have uploaded MangoPay logo"
+msgstr ""
+
+msgid "Conditions & rules"
+msgstr ""
+
+msgid "Enter the url where you have uploaded MangoPay conditions"
+msgstr ""
+
+# Users
+msgid "mangopay_user_info"
+msgstr "MangoPay User"
+
+msgid "mwpw_user_type"
+msgstr "User type"
+
+msgid "mwpw_user_type_description"
+msgstr " [_] Natural o [x] Legal"
+
+msgid "mwpw_change_user_data"
+msgstr "Change your user data"
+
+# Natural users
+msgid "mangopay_natural"
+msgstr "Natural"
+
+msgid "Email"
+msgstr ""
+
+msgid "Email_description"
+msgstr " "
+
+msgid "FirstName"
+msgstr "First name"
+
+msgid "FirstName_description"
+msgstr " "
+
+msgid "LastName"
+msgstr "Last name"
+
+msgid "LastName_description"
+msgstr " "
+
+msgid "Birthday"
+msgstr ""
+
+msgid "Birthday_description"
+msgstr "yyyy-mm-aa"
+
+msgid "Nationality"
+msgstr ""
+
+msgid "Nationality_description"
+msgstr ""
+"ISO 3166-1 alpha-2: GB for Great Britain, ES for Spain, FR for France..."
+
+msgid "CountryOfResidence"
+msgstr "Country of residence"
+
+msgid "CountryOfResidence_description"
+msgstr ""
+"ISO 3166-1 alpha-2: GB for Great Britain, ES for Spain, FR for France..."
+
+# Legal users
+msgid "mangopay_legal"
+msgstr "Legal"
+
+msgid "Name"
+msgstr ""
+
+msgid "Name_description"
+msgstr "Entity name"
+
+msgid "LegalEmail"
+msgstr "Email"
+
+msgid "LegalEmail_description"
+msgstr " "
+
+msgid "LegalPersonType"
+msgstr "Type"
+
+msgid "LegalPersonType_description"
+msgstr "BUSINESS or ORGANIZATION"
+
+msgid "LegalRepresentativeFirstName"
+msgstr "Representative name"
+
+msgid "LegalRepresentativeFirstName_description"
+msgstr "Legal representative first name"
+
+msgid "LegalRepresentativeLastName"
+msgstr "Representative surname"
+
+msgid "LegalRepresentativeLastName_description"
+msgstr "Legal representative second name"
+
+msgid "LegalRepresentativeBirthday"
+msgstr "Representative birthday"
+
+msgid "LegalRepresentativeBirthday_description"
+msgstr "yyyy-mm-aa"
+
+msgid "LegalRepresentativeNationality"
+msgstr "Representative nationality"
+
+msgid "LegalRepresentativeNationality_description"
+msgstr ""
+"ISO 3166-1 alpha-2: GB for Great Britain, ES for Spain, FR for France..."
+
+msgid "LegalRepresentativeCountryOfResidence"
+msgstr "Representative country of residence"
+
+msgid "LegalRepresentativeCountryOfResidence_description"
+msgstr ""
+"ISO 3166-1 alpha-2: GB for Great Britain, ES for Spain, FR for France..."
+
+msgid "Amount"
+msgstr ""
+
+msgid "Amount_description"
+msgstr " €"
+
+# Payout
+msgid "mangopay_bank"
+msgstr "MangoPay bank account for payout"
+
+msgid "OwnerName"
+msgstr "Owner name"
+
+msgid "OwnerName_description"
+msgstr " "
+
+msgid "OwnerAddress"
+msgstr "Owner address"
+
+msgid "OwnerAddress_description"
+msgstr " "
+
+msgid "IBAN"
+msgstr "IBAN"
+
+msgid "IBAN_description"
+msgstr "International Banck Account Number"
+
+msgid "BIC"
+msgstr "BIC"
+
+msgid "BIC_description"
+msgstr "Bank Identifier Code"
+
+msgid "post_fields_title"
+msgstr "MangoPay fundraisings"
