@@ -50,6 +50,10 @@ Set gateway default values on *Campaings|Settings|Gateways|Mangopay Gateway Sett
 * Conditions rules image =>  url where you have uploaded MangoPay logo (MangoPay contract requirement)
 * Conditions & rules =>  url where you have uploaded MangoPay conditions ((MangoPay contract requirement)
 
+Notices
+-------------
+In case you get **Unauthorized** errors, check MangoPaySDK/types/configuration.inc (search for public $BaseUrl) to set proper environtment.
+
 Version
 ----
 0.3.14159265359
