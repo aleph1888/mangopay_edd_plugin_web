@@ -21,19 +21,19 @@ Also, notice that **every created wallet will be owned by site admin**, although
 Then, *WP_users*, and *WP_posts* objects will be completed with fields as follows:
 
 a) **Site admin** WP_user:
-```
+
  - *mangopay_id* (int)  MangoPay\User (legal or natural) id => It will be generated on user *Profile|MangoPay User*.
- - *wallet_id*   (int)  MangoPay\Wallet id                  => It will be generated on plugin initialization; (see                                                                        *mwpw_init_site()* function in *mwpw_gateway.php* file)
-```
+ - *wallet_id*   (int)  MangoPay\Wallet id                  => It will be generated on plugin initialization; (see *mwpw_init_site()* function in *mwpw_gateway.php* file)
+
 b) **Post author** WP_user:
-```
+
  - *mangopay_id* (int)	 MangoPay\User (legal or natural) id  => It will be generated on user *Profile|MangoPay User*.
- - *bank_id*	    (int)	 MangoPay\BankAccount id              => It will be generated on user *Profile|MangoPay          ```                                                              User|MangoPay bank account for payout*.
+ - *bank_id*	    (int)	 MangoPay\BankAccount id              => It will be generated on user *Profile|MangoPay                                                                       User|MangoPay bank account for payout*.
 
 c) **Campaign** type='download' WP_post:
-```
- - *wallet_id*	  (int)	 MangoPay\Wallet id                   => It will be generated on first payment to wallet; (see                                                                      *mwpw_distribute_funds()* function on *mwpw_pay* class)
-```
+
+ - *wallet_id*	  (int)	 MangoPay\Wallet id                   => It will be generated on first payment to wallet; (see *mwpw_distribute_funds()* function on *mwpw_pay* class)
+
 
 Also notice that **Wordpress guests** are allowed to pay without registration. In this cases, a *MangoPay\user* will be generated but won't be linked to any *WP_user*. 
 
