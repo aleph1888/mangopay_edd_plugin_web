@@ -63,11 +63,11 @@ Tech
 
 Dependencies
 --------------
-- Mangopay SDKv2 (https://github.com/MangoPay/mangopay2-php-sdk
+- [Mangopay SDKv2](https://github.com/MangoPay/mangopay2-php-sdk)
 
 ##### Calaways EDD gateways bundle.
 
-* https://wiki.enredaos.net/index.php?title=COOPFUND-DEV#MANGOPAY
+* [Wiki doc](https://wiki.enredaos.net/index.php?title=COOPFUND-DEV#MANGOPAY).
 
 License
 ----------
