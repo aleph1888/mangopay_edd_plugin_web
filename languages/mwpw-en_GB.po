@@ -48,6 +48,9 @@ msgstr ""
 msgid "Fetching PayOut"
 msgstr ""
 
+msgid "Must configure MangoPay User section in %s profile."
+msgstr ""
+
 msgid ""
 "In order to request for a withdraw of your funds, author %s must fill "
 "MangoPay User form on profile."
