@@ -56,7 +56,7 @@ In case you get **Unauthorized** errors, check MangoPaySDK/types/configuration.i
 
 Version
 ----
-0.3.14159265359
+0.3.14159265359 (SemVer)[http://semver.org/]
 
 Tech
 -----------
