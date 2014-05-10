@@ -52,7 +52,7 @@ Set gateway default values on *Campaings|Settings|Gateways|Mangopay Gateway Sett
 
 Notices
 -------------
-In case you get **Unauthorized** errors, check MangoPaySDK/types/configuration.inc (search for public $BaseUrl) to set proper environtment.
+In case you get **Unauthorized** errors, check MangoPaySDK/types/configuration.inc (search for public $BaseUrl) to set proper environment. Also, if you have been moving from sandbox, try erasing MangoPay tmp file (you provided a temporal folder for MangoPay to write).
 
 Version
 ----
