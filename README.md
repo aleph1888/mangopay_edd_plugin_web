@@ -86,7 +86,7 @@ Critical features:
 - Only first item in cart is processed.
 - A issue related to user that owns wallets. Here, post (campaign) author owns the wallet. But if for some reason author changes his user type in his profile from Natural to Legal or viceversa, then a new MangoPay id is generated so will loose relation with wallet and then an admin should readjust it by code.
 
-Non-critial features:
+Non-critical features:
 - Fundify 'all or nothing' funds retrievement not implemented. So any payment will go directly to campaigns wallet.
 - https://github.com/aleph1888/mangopay_edd_plugin/issues
 - Non English traduction available (need to translate from spain).
@@ -97,7 +97,7 @@ Just for beauty features:
 
 Then, uploaded gateway fixes all these features except:
 
-Non-critial features:
+Non-critical features:
 - Fundify 'all or nothing' funds retrievement not implemented. So any payment will go directly to campaigns wallet.
 Still not hooked Fundify trigger, but now gateway is receiving all funds to a site wallet and then distributing it to posts (campaigns) wallets, so, it is only one final step by easily intercepting distribution process.
 - Non English traduction available (need to translate from spanis)
