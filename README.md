@@ -89,7 +89,7 @@ Critical features:
 Non-critical features:
 - Fundify 'all or nothing' funds retrievement not implemented. So any payment will go directly to campaigns wallet.
 - https://github.com/aleph1888/mangopay_edd_plugin/issues
-- Non English traduction available (need to translate from spain).
+- Non English traduction available (need to translate from spanish).
 
 Just for beauty features:
 - Code not documented
@@ -100,7 +100,7 @@ Then, uploaded gateway fixes all these features except:
 Non-critical features:
 - Fundify 'all or nothing' funds retrievement not implemented. So any payment will go directly to campaigns wallet.
 Still not hooked Fundify trigger, but now gateway is receiving all funds to a site wallet and then distributing it to posts (campaigns) wallets, so, it is only one final step by easily intercepting distribution process.
-- Non English traduction available (need to translate from spanis)
+- Non English traduction available (need to translate from spanish)
 
 Then, the problem is that this one, has not been tested already. Even not installed, so may be it has even some sintaxis errors. I need to install it, and verify everything goes fine. Just a few hours.
 
