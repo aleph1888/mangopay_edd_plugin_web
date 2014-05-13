@@ -102,7 +102,7 @@ Non-critical features:
 Still not hooked Fundify trigger, but now gateway is receiving all funds to a site wallet and then distributing it to posts (campaigns) wallets, so, it is only one final step by easily intercepting distribution process.
 - Non English traduction available (need to translate from spanish)
 
-Then, the problem is that this one, has not been tested already. Even not installed, so may be it has even some sintaxis errors. I need to install it, and verify everything goes fine. Just a few hours.
+Then, the problem is that this one, has not been tested already. Even not installed.
 
 License
 ----------
