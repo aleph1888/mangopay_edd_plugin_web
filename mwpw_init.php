@@ -158,7 +158,7 @@ function mwpw_add_settings( $settings ) {
 		array(
 			'id' => 'mwpw_live_api_user',
 			'name' => __( 'Live API User', 'mwpw' ),
-			'desc' => __( 'Enter your live API user', 'mwpw_fields' ),
+			'desc' => __( 'Enter your live API user', 'mwpw' ),
 			'type' => 'text',
 			'size' => 'regular'
 		),
