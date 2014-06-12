@@ -81,7 +81,7 @@ function mwpw_init_site() {
 	} else {
 		$user_invalid_mangopay_id = $gateway_not_available .
 					__( 'Must configure MangoPay User section in %s profile.', 'mwpw' );
-		mwpw_errors::mwpw_errors_add ( 'init', sprint( $user_invalid_mangopay_id, "<i>{$wp_admin->user_login}</i>" ) );
+		mwpw_errors::mwpw_errors_add ( 'init', sprintf( $user_invalid_mangopay_id, "<i>{$wp_admin->user_login}</i>" ) );
 	}
 
 	if ( $WP_user_setted && $MangoPay_user_setted ) {

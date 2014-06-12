@@ -53,7 +53,7 @@ class mwpw_errors {
 	 */
 	static public function mwpw_errors_manage( $str_key, $e, $source ) {
 
-		self::mwpw_errors_append( $str_key, "{$source}: {$e->message}\n" );
+		self::mwpw_errors_append( $str_key, "{$source}: {$e->GetMessage()}\n" );
 
 	}
 
