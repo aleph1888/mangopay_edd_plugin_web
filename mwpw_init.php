@@ -115,7 +115,7 @@ function mwpw_get_current_site_MangoPay_config() {
 	}
 
 	if ( isset( $mwpw_wallet->m_wallet ) )
-		$w_amount = $mwpw_wallet->m_wallet->Balance->Amount;
+		$w_amount = $mwpw_wallet->m_wallet->Balance->Amount / 100;
 	else
 		$w_amount = '0';
 
