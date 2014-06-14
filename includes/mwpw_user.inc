@@ -247,10 +247,10 @@ class mwpw_user extends m\User {
 	*/
 	static function mwpw_convert_number_to_dates( &$m_user ) {
 
-		if ( $user->is_legal_user ) {
-			$user->LegalRepresentativeBirthday = date("Y-m-d", $user->LegalRepresentativeBirthday );
+		if ( $m_user->is_legal_user ) {
+			$m_user->LegalRepresentativeBirthday = date("Y-m-d", $m_user->LegalRepresentativeBirthday );
 		} else {
-			$user->Birthday = date("Y-m-d",  $user->Birthday );
+			$m_user->Birthday = date("Y-m-d",  $m_user->Birthday );
 		}
 
 	}
