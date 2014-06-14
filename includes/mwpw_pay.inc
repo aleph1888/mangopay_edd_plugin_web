@@ -178,16 +178,21 @@ class mwpw_pay {
 
 			$transaction = new m\Transfer();
 
-			$transaction->AuthorId =  $this->m_wallets_owner_id;
-			$transaction->CreditedUserId = $credited_wallet->Owners[0];
+                        $transaction->AuthorId = $this->m_wallets_owner_id;
+                        $transaction->CreditedUserId = $credited_wallet->m_wallet->Owners[0];
 
-			$transaction->DebitedWalletId = $this->m_site_wallet_id;
-			$transaction->CreditedWalletId= $credited_wallet->m_wallet_id;
+                        $transaction->DebitedWalletId = $this->m_site_wallet_id;
+                        $transaction->CreditedWalletId= $credited_wallet->m_wallet_id;
 
-			$transaction->DebitedFunds = new m\Money();
-			$transaction->DebitedFunds->Amount = $amount * 100;
-			$transaction->DebitedFunds->Currency = 'EUR';
-			$transaction->Fees = $createdPayIn->Fees;
+                        $money = new m\Money();
+                        $money->Amount = $amount;
+                        $money->Currency = 'EUR';
+
+                        $transaction->DebitedFunds = $money;
+                        $transaction->Fees = new m\Money();
+                        $transaction->Fees->Amount = 0;
+                        $transaction->Fees->Currency = 'EUR';
+
 
 			try {
 				$api = mwpw_api::get_instance();
