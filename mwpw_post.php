@@ -110,7 +110,7 @@ function mwpw_listen_for_mangopayweb_payout_order() {
 
 		// notify and save created id
 		if ( $m_payout->Status ) {
-			mwpw_errors::mwpw_errors_append( 'payout', __( "Payout operation has been ordered with result: ", 'mwpw' ) . $m_payout->Result );
+			mwpw_errors::mwpw_errors_append( 'payout', __( "Payout operation has been ordered with result: ", 'mwpw' ) . $m_payout->Status );
 
 			if ( $m_payout->Status == "CREATED" ) {
 				update_post_meta( $wp_post_id, 'payout_id', $m_payout->Id );
