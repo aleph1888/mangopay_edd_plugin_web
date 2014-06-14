@@ -160,7 +160,7 @@ class mwpw_pay {
 			$amount = (int) $item["item_price"] * 100;
 
 			//Fetch related post
-			$wp_post = get_post( $post_id );
+			$wp_post = get_post( $wp_post_id );
 			$wp_user = get_userdata( $wp_post->post_author );
 
 			//Get wallet (creates a new one if first payment to this post)
