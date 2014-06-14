@@ -327,3 +327,51 @@ function mwpw_listen_for_mangopayweb_WalletErase( ) {
 
 }
 add_action( 'init', 'mwpw\mwpw_listen_for_mangopayweb_WalletErase' );
+
+
+/**
+*
+* Comming from mwpw_payout::mwpw_bankaccount_get_info() payout button,
+* processes payout request and redirects to edition post page.
+*/
+function mwpw_listen_for_mangopayweb_payout_order() {
+
+	if ( isset( $_GET['edd-listener'] ) && $_GET['edd-listener'] == 'mangopaywebPAYOUT' ) {
+
+		// get post identificator
+		$wp_post_id = $_GET['pid'];
+		$wp_post = get_post( $wp_post_id );
+
+		// gatekeeper
+		$wp_user = get_userdata( $wp_post->post_author );
+		if ( ! current_user_can( 'edit_post', $wp_post_id)  ) {
+			wp_redirect ( site_url () );
+			die;
+		}
+
+		// build payout
+		$m_wallet_id = $wp_post->wallet_id;
+		$owner_id = $wp_post_id;
+		$owner_type = 'post';
+		$context_error = "payout";
+		$mwpw_wallet = new mwpw_wallet( $m_wallet_id, $owner_id, $owner_type, $context_error );
+		$mwpw_wallet->mwpw_load_wallet();
+		require_once __DIR__ . "/includes/mwpw_payout.inc";
+		$m_payout = mwpw_payout::mwpw_do_payout( $mwpw_wallet->m_wallet, $wp_user->bank_id );
+
+		// notify and save created id
+		if ( $m_payout->Status ) {
+			mwpw_errors::mwpw_errors_append( 'payout', __( "Payout operation has been ordered with result: ", 'mwpw' ) . $m_payout->Status );
+
+			if ( $m_payout->Status == "CREATED" ) {
+				update_post_meta( $wp_post_id, 'payout_id', $m_payout->Id );
+			}
+		}
+
+		// return to post
+		wp_redirect ( get_edit_post_link( $wp_post_id, '&' ) );
+		die;
+
+	}
+}
+add_action( 'init', 'mwpw\mwpw_listen_for_mangopayweb_payout_order' );
