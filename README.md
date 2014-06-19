@@ -1,9 +1,12 @@
 MangoPay Wordpress Plugin Web (MWPW)
 ==================
 
-EasyDigitalDownloads Mangopay gateway (94.7% compatible with Campaignify)
+EasyDigitalDownloads Mangopay gateway.
 
 Mangopay SDKv2 [implementing **web payment method**].
+
+NOTICE: Although this plugin is coded to be used with EDD and Fundify, it is not recognized or supported by them.
+
 
 Workflow
 ----
