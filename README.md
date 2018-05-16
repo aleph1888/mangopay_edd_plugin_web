@@ -7,6 +7,7 @@ Mangopay SDKv2 [implementing **web payment method**].
 
 NOTICE: Although this plugin is coded to be used with EDD and Fundify, it is not recognized or supported by them.
 
+NOTICE: 2018 Better? https://wordpress.org/plugins/mangopay-woocommerce/
 
 Workflow
 ----
@@ -81,7 +82,7 @@ Docs dev
 
 Status
 --------------
-I've got a non uploaded to github gateway working on www.coopfunding.net (this is spanish web site). So you can see it working.
+Some time ago there was a version working on a well-doing fair crowdfunding place. I believe they have moved forwards on crypto. Not sure!
 
 For now, this gateway is working perfectly. But it has several issues that must be solved and present gateway solves them:
 
@@ -109,13 +110,11 @@ Then, the problem is that this one, has not been tested already. Even not instal
 
 License
 ----------
-GPL
+MIT
 
 Contribute
 ----------
-@BTC 1DNxbBeExzv7JvXgL6Up5BSUvuY4gE8q4
-
-Other ways: ox@enredaos.net
+Not pretty sure if there should be contribution.
 
 
 
