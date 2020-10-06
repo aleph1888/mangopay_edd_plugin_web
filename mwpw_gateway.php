@@ -16,7 +16,6 @@ namespace mwpw;
 
 use MangoPay as m;
 
-
 /**
  *
  * Registers the gateway in EDD system; filter for edd_payment_gateways()
@@ -35,7 +34,6 @@ function mwpw_register_gateway( $gateways ) {
 	return $gateways;
 
 }
-
 
 /**
  *
@@ -115,7 +113,6 @@ function mwpw_init_site() {
 
 }
 
-
 /**
  *
  * As credit card validation is done on Mangopay server,
@@ -161,7 +158,6 @@ function mwpw_mangopayweb_gateway_cc_form() {
 
 }
 add_action( 'edd_mangopayweb_gateway_cc_form', 'mwpw\mwpw_mangopayweb_gateway_cc_form');
-
 
 /**
  *
